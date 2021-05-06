@@ -8,9 +8,9 @@ spec:
   gitImplementation: go-git
   interval: 30s
   ref:
-    branch: main
+    branch: 00-main
   timeout: 20s
   secretRef:
     name: github-token
-  url: https://github.com/fluxdemo/instavote-deploy.git
+  url: https://github.com/devopsfoo/instavote-deploy.git
 
