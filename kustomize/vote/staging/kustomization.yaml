@@ -4,10 +4,10 @@ resources:
 - ../base
 patchesStrategicMerge:
 - deployment.yaml
-- service.yaml
+- patch.yaml
 replicas:
 - name: vote
-  count: 5
+  count: 0
 images:
 - name: schoolofdevops/vote
   newName: dopsdemo/vote
