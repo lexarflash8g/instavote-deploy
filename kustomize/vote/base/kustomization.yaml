@@ -4,4 +4,5 @@ resources:
 - deployment.yaml
 - hpa.yaml
 - canary.yaml
+- ingress.yaml
 
