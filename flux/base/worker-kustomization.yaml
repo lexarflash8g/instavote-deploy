@@ -9,7 +9,7 @@ spec:
   - kind: Deployment
     name: worker
     namespace: instavote
-  interval: 30s
+  interval: 1h
   dependsOn:
   - name: redis
   path: ./kustomize/worker/staging
