@@ -9,7 +9,7 @@ spec:
   - kind: Deployment
     name: vote
     namespace: instavote
-  interval: 10m
+  interval: 1h
   path: ./kustomize/vote/staging
   prune: true
   sourceRef:
