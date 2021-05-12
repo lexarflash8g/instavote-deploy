@@ -11,7 +11,7 @@ replicas:
 images:
 - name: schoolofdevops/vote
   newName: dopsdemo/vote
-  newTag: main-617c3c80-1620799270 # {"$imagepolicy": "instavote:vote:tag"}
+  newTag: main-fd5a4af3-1620800899 # {"$imagepolicy": "instavote:vote:tag"}
 namespace: instavote
 commonLabels:
   project: instavote
