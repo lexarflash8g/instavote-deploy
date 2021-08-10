@@ -2,15 +2,15 @@
 apiVersion: source.toolkit.fluxcd.io/v1beta1
 kind: GitRepository
 metadata:
-  name: instavote
-  namespace: instavote
+  name: vote
+  namespace: flux-system
 spec:
   gitImplementation: go-git
-  interval: 1h
+  interval: 3os
   ref:
     branch: main
   timeout: 20s
   secretRef:
-    name: github-token
-  url: https://github.com/devopsfoo/instavote-deploy.git
+    name: github-instavote
+  url: https://github.com/lexarflash8g/instavote.git
 
