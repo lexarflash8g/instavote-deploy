@@ -9,8 +9,7 @@ replicas:
 - name: vote
   count: 0
 images:
-- name: schoolofdevops/vote
-  newName: dopsdemo/vote
+- name: lexarflash8g/vote
   newTag: main-68e45bf2-1620806575 # {"$imagepolicy": "instavote:vote:tag"}
 namespace: instavote
 commonLabels:
