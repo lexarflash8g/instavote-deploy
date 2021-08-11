@@ -3,7 +3,7 @@ apiVersion: notification.toolkit.fluxcd.io/v1beta1
 kind: Provider
 metadata:
   name: github-instavote
-  namespace: instavote
+  namespace: flux-system
 spec:
   address: https://github.com/lexarflash8g/instavote-deploy
   secretRef:
