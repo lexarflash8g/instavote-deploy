@@ -4,6 +4,7 @@ resources:
 - deployment.yaml
 - hpa.yaml
 - ingress.yaml
+- canary.yaml
 patchesStrategicMerge:
 - deployment.yaml
 - canary.yaml
