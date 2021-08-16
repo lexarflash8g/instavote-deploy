@@ -3,7 +3,7 @@ apiVersion: image.toolkit.fluxcd.io/v1alpha2
 kind: ImageUpdateAutomation
 metadata:
   name: result
-  namespace: flux-system
+  namespace: instavote
 spec:
   git:
     checkout:
@@ -21,6 +21,6 @@ spec:
     kind: GitRepository
     name: instavote-deploy
   update:
-    path: ./kustomize/result
+    path: ./helm/charts/result
     strategy: Setters
 
